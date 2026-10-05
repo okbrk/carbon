@@ -310,7 +310,13 @@ export const ExampleImplementation: StoryObj = () => {
               Subjects
             </Typography>
             <Box display="flex" flexDirection="column" gap={1}>
-              <Tile variant="tile" orientation="horizontal" p={2}>
+              <Tile
+                variant="tile"
+                orientation="horizontal"
+                p={2}
+                roundness="moderate"
+                outline
+              >
                 <Box
                   display="flex"
                   flexDirection="row"
@@ -344,7 +350,13 @@ export const ExampleImplementation: StoryObj = () => {
                 </Box>
               </Tile>
 
-              <Tile variant="tile" orientation="horizontal" p={2}>
+              <Tile
+                variant="tile"
+                orientation="horizontal"
+                p={2}
+                roundness="moderate"
+                outline
+              >
                 <Box
                   display="flex"
                   flexDirection="row"
@@ -378,7 +390,13 @@ export const ExampleImplementation: StoryObj = () => {
                 </Box>
               </Tile>
 
-              <Tile variant="tile" orientation="horizontal" p={2}>
+              <Tile
+                variant="tile"
+                orientation="horizontal"
+                p={2}
+                roundness="moderate"
+                outline
+              >
                 <Box
                   display="flex"
                   flexDirection="row"
@@ -412,7 +430,13 @@ export const ExampleImplementation: StoryObj = () => {
                 </Box>
               </Tile>
 
-              <Tile variant="tile" orientation="horizontal" p={2}>
+              <Tile
+                variant="tile"
+                orientation="horizontal"
+                p={2}
+                roundness="moderate"
+                outline
+              >
                 <Box
                   display="flex"
                   flexDirection="row"
